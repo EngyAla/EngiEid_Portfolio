@@ -1,0 +1,9 @@
+.personal_skills{
+    margin-top: 20px;
+    /* width: 50%; */
+}
+.personal_skills button{
+    border-radius: 2rem;
+    margin: 0px 9px 10px 0px;
+    font-size: 13px;
+}

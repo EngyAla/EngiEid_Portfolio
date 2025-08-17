@@ -1,0 +1,76 @@
+.projects{
+    margin-top: 20px;
+}
+.proj_cards{
+    /* width: 90%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    margin: 30px 10px !important;
+}
+.single_card{
+    min-height: 30rem;
+    max-height: auto;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .32s;
+    /* background-image: linear-gradient(rgba(161, 161, 161, 0.215),rgba(255,255,255,.05)); */
+}
+
+.single_card:hover{
+    transform: scale(1.03);
+    border: 1px solid #1ce3f5 !important;
+}
+.single_card img{
+    border-radius: 5px 5px 0px 0px;
+}
+
+.card_links{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card_links a{
+    text-decoration: none;
+}
+
+.filter_buttons{
+    margin: 0px auto;
+    width: fit-content;
+    /* border-top: 1px solid #48bccf;
+    border-bottom: 1px solid #48bccf; */
+    border-radius: 3px;
+    display: flex;
+    gap: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.filter_buttons button{
+    width: 8rem;
+    padding: 8px 15px;
+    color: #48bccf;
+    font-weight: 600;
+    background-color: transparent;
+    border: 1px solid #48bccf;
+    outline: none;
+    transition: .32s ease-in-out;
+    /* background-color: #85caf82d;
+    color: #fff; */
+}
+/* .mid_btn{
+    border-left: 1px solid #48bccf !important;
+    border-right: 1px solid #48bccf !important;
+} */
+.filter_buttons button:last-child{
+    width: 180px;
+}
+.filter_buttons button:hover{
+    background-color: #75c8ff2d;
+    cursor: pointer;
+}
+/* .filter_buttons button:first-child, .filter_buttons button:last-child{
+    border-right: 1px solid;
+    border-left: 1px solid;
+} */
